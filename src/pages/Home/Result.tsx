@@ -6,7 +6,7 @@ function TableParameterComponent(): ReactElement {
 	return (
 		<div className='relative overflow-x-auto shadow-md sm:rounded-lg max-w-full rounded-lg'>
 			<table className='w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400'>
-				<thead className='text-xs text-gray-700 uppercase bg-rose-500 dark:bg-rose-600 dark:text-gray-100'>
+				<thead className='text-xs text-gray-700 uppercase bg-pink-500 dark:bg-pink-600 dark:text-gray-100'>
 					<tr>
 						<th scope='col' className='px-6 py-3'>
 							Classificação
@@ -97,7 +97,7 @@ export default function ResultHomeComponent({
 			<div className='flex items-center justify-center gap-2 flex-col dark:text-grey-100 px-6 py-5 rounded-lg w-full'>
                 <img src="/logo-tay.png" alt="Logo Tay" />
 				<p className='text-lg md:text-xl'>
-					Percentual de gordura corporal: <span className='dark:text-rose-600 font-bold'>{result}</span>
+					Percentual de gordura corporal: <span className='dark:text-pink-600 font-bold'>{result}</span>
 				</p>
 				{/* <p className='text-lg md:text-xl'>
 					Massa gorda:{' '}
@@ -119,14 +119,14 @@ export default function ResultHomeComponent({
 			</div>
 			<div className='flex gap-10 items-stretch'>
 				<div className='flex-1 h-20 hidden md:block'>{''}</div>
-				<div className='relative flex-[2_2_0%] h-24 dark:bg-rose-600 dark:text-grey-100 rounded-lg p-2'>
+				<div className='relative flex-[2_2_0%] h-24 dark:bg-pink-600 dark:text-grey-100 rounded-lg p-2'>
 					<p>Massa gorda:</p>
 					<span className='absolute bottom-2 right-3'>
 						{(data.peso * transformPercentStringInNumber(result)).toFixed(2)}
 						{' Kg'}
 					</span>
 				</div>
-				<div className='relative flex-[2_2_0%] h-24 dark:bg-rose-600 dark:text-grey-100 rounded-lg p-2'>
+				<div className='relative flex-[2_2_0%] h-24 dark:bg-pink-600 dark:text-grey-100 rounded-lg p-2'>
 					<p>Massa magra:</p>
 					<span className='absolute bottom-2 right-3'>
 						{(

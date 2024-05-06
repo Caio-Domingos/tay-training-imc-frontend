@@ -40,7 +40,7 @@ export default function TextInput({
 
 			{prefix ? (
 				<div className='flex justify-center w-full'>
-					<div className='h-11 w-14 flex justify-center items-center rounded-l-lg border dark:border-gray-600 dark:bg-rose-600 dark:text-gray-300'>
+					<div className='h-11 w-14 flex justify-center items-center rounded-l-lg border dark:border-gray-600 dark:bg-pink-600 dark:text-gray-300'>
 						{prefix}
 					</div>
 					<input

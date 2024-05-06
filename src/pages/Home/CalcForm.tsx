@@ -120,13 +120,13 @@ export default function CalcFormComponent({
 		<>
 			{' '}
 			<img src='/logo-tay.png' alt='Logo Tay' />
-			<h2 className='text-xl md:text-2xl text-center dark:text-rose-500'>
+			<h2 className='text-xl md:text-2xl text-center dark:text-pink-500'>
 				Calcule o seu Percentual de Gordura Corporal
 			</h2>
 			<div className='w-9/12 md:w-7/12 flex flex-col items-center justify-center pt-5'>
 				{values && (
 				<IconButton
-					color='rose'
+					color='pink'
 					label='Usar valores anteriores'
 					onClick={handleResetPreviousValues}
 					mode='outline'
