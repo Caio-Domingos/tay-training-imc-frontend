@@ -108,11 +108,11 @@ export default function CalcFormComponent({
 
 	const handleResetPreviousValues = (): void => {
 		void formik.setValues({
-			peso: values.peso,
-			altura: values.altura,
-			cintura: values.cintura,
-			pescoco: values.pescoco,
-			quadril: values.quadril,
+			peso: `${values.peso}`,
+			altura: `${values.altura / 100}`,
+			cintura: `${values.cintura}`,
+			pescoco: `${values.pescoco}`,
+			quadril: `${values.quadril}`,
 		});
 	};
 
